@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.top-1 {
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 8px 30px;
+}
+
+.top-1 .top-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.top-2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 5px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 60px;
+    width: 100%;
+}
+
+.top-2 .menu-icon {
+    display: none;
+}
+
+.top-2 img {
+    width: 100px;
+    margin-left: 40px;
+}
+
+.top-2 ul {
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding-right: 15px;
+    color: gainsboro;
+}
+
+.top-2 .top-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 7px 25px;
+}
+/* Next - Hero */
+.hero {
+    background-image: url('./eacom-franchise-hub-f23-hero-med-xl-7x2.png.adapt.crop5x2.1455w.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 125px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.hero .hero-title {
+    width: 600px;
+}
+
+.hero h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.hero .hero-title .p-first-child {
+    font-weight: 300;
+    /* font-size: 60px; */
+    /* line-height: 60px; */
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+.hero .hero-title .p-last-child {
+    font-weight: 300;
+    margin-top: 5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-btns button:first-child {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.hero .hero-btns button:last-child {
+    background: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.join-sect {
+    background-image: url('./ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.1456w.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 90px;
+}
+
+.join-sect p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.join-sect .join-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-sect .join-btn button{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    /* padding: 15px 30px; */
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 250px;
+}
+
+.about p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.latest-games, .latest-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+    min-height: 620px;
+}
+
+.latest-games h1, .latest-news h1, .form-label-head h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.latest-games .slider-latest img {
+    width: 370px;
+    margin-left: 20px;
+}
+
+/* news */
+
+.news-latest {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0 50px;
+}
+
+.news-latest h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.news-latest p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.news-latest .news {
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    min-height: 450px;
+}
+
+.news-latest .news img {
+    width: 100%;
+}
+
+.news-latest .news .news-txt-details {
+    padding: 10px;
+}
+
+.latest-news button {
+    background: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.signing-sect {
+    padding: 0 100px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    column-gap: 25px;
+    align-items: start;
+    justify-content: space-around;
+    margin: 3em 0;
+}
+
+.signing-sect .form-label-head h1 {
+    line-height: 50px;
+    margin-bottom: 2rem;
+}
+
+.signing-sect .form-label-head .sign-first-p {
+    margin-bottom: 2rem;
+}
+
+.signing-sect .form-label-head .sign-first-p span a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.signing-sect form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.country-sel {
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.country-sel select {
+    background: none;
+    border: none;
+}
+
+.checking-box {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.checking-box p {
+    font-size: 14px;
+    width: 95%;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.checking-box p span a {
+    text-decoration: none;
+    color: blue;
+}
+
+.signing-sect form button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 15px;
+    width: 25%;
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: slategrey;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer .upper-footer, footer .lower-footer {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+footer .lower-footer {
+    margin-top: 1em;
+}
+
+footer .upper-footer .top-desc .desc-lists {
+    display: flex;
+    align-items: start;
+
+    border-bottom: 1px solid lightblue;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+footer .upper-footer .top-desc .desc-lists .ul-1{
+    width: 50%;
+}
+
+footer .upper-footer .top-desc .desc-lists ul li a {
+    color: darkgrey;
+}
+
+.middle-icons {
+    border-bottom: 1px solid lightblue;
+    margin-bottom: 20px;
+}
+
+.middle-icons .all-icons {
+    padding: 15px 0;
+}
+
+.middle-icons .all-icons a {
+    margin-right: 20px;
+}
+
+.bottom-imgs {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.bottom-imgs img:first-child {
+    margin-bottom: 1em;
+}
+
+.lower-footer a img {
+    width: 50px;
+}
+
+.lower-footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.lower-footer ul li a {
+    color: darkgrey;
+}
+
+.lower-footer form {
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.lower-footer form select {
+    background: none;
+    border: none;
+    color: gainsboro;
+}
+
+.lower-footer form select option {
+    color: black;
+}
+
+.lower-footer p {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    /* NAV-Top-1 */
+    .top-1 {
+        background-color: rgb(44, 44, 44);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 8px 30px;
+    }
+
+    .top-1 .top-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 150px;
+    }
+    /* NAV-Top-2 */
+    .top-2 {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        color: white;
+        padding: 5px 10px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        height: 60px;
+        width: 100%;
+    }
+
+    .top-2 .menu-icon {
+    display: inline-block;
+}
+
+    .top-2 img {
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    .top-2 ul {
+        /* width: 950px; */
+        display: none;
+        /* align-items: center;
+        justify-content: space-between;
+        padding-right: 15px;
+        color: gainsboro; */
+    }
+
+    .top-2 .top-btn {
+        /* background-color: blue;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 7px 25px; */
+        display: none;
+    }
+    /* hero-S */
+    .hero {
+    background-image: url('./comea-franchise-hub-f23-hero-med-xl-7x2.png.adapt.crop16x9.320w.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 450px 0 30px 60px;
+    }
+
+    .hero .hero-title {
+        width: 600px;
+    }
+
+    .hero h1 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .hero .hero-title .p-first-child {
+        font-weight: 300;
+        /* font-size: 60px; */
+        /* line-height: 60px; */
+        /* text-transform: uppercase; */
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+
+    .hero .hero-title .p-last-child {
+        font-weight: 300;
+        margin-top: 5px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero .hero-btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .hero-btns button:first-child {
+        background-color: rgb(29, 29, 29);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .hero .hero-btns button:last-child {
+        background: none;
+        border: 1px solid black;
+        color: black;
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    /* J-S */
+    .join-sect {
+    background-image: url('./ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.1456w.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    padding: 50px 90px;
+    }
+
+    .join-sect p {
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+
+    .join-sect img {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .join-sect .join-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .join-sect .join-btn button{
+        background: none;
+        border: 2px solid white;
+        color: white;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    /* about */
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 75px;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    /* L-G */
+    .latest-games, .latest-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 25px 0;
+        min-height: 620px;
+    }
+
+    .latest-games h1, .latest-news h1, .signing-sect h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    .latest-games .slider-latest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .latest-games .slider-latest img {
+        width: 370px;
+        margin-top: 50px;
+    }
+    /* L-N */
+    .news-latest {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 30px 0 50px;
+    }
+
+    .news-latest h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .news-latest p {
+        /* font-weight: 300;
+        font-size: 15px; */
+        display: none;
+    }
+
+    .news-latest .news {
+        width: 640px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    .news-latest .news img {
+        display: none;
+    }
+
+    .news-latest .news .news-txt-details {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .latest-news button {
+        background: none;
+        border: 1px solid black;
+        color: black;
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+    .signing-sect {
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        min-height: 430px;
+    }
+
+    .signing-sect h1 {
+        line-height: 50px;
+        margin-bottom: 2rem;
+    }
+
+    .signing-sect .sign-first-p {
+        margin-bottom: 2rem;
+    }
+
+    .signing-sect .sign-first-p span a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .signing-sect form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .signing-sect form input {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .country-sel {
+        border: 1px solid black;
+        padding: 10px;
+        color: grey;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .country-sel select {
+        background: none;
+        border: none;
+    }
+
+    .checking-box {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 25px 0;
+    }
+
+    .checking-box p {
+        font-size: 14px;
+        width: 95%;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+    .checking-box p span a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .signing-sect form button{
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 30px;
+        font-size: 15px;
+        width: 25%;
+        margin-bottom: 2em;
+    }
+
+    footer {
+        background-color: slategrey;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    footer .upper-footer, footer .lower-footer {
+        background-color: rgb(59, 59, 59);
+        color: white;
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    footer .lower-footer {
+        margin-top: 1em;
+    }
+
+    footer .upper-footer .top-desc .desc-lists {
+        display: flex;
+        align-items: start;
+
+        border-bottom: 1px solid lightblue;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    footer .upper-footer .top-desc .desc-lists .ul-1{
+        width: 50%;
+    }
+
+    footer .upper-footer .top-desc .desc-lists ul li a {
+        color: darkgrey;
+    }
+
+    .middle-icons {
+        border-bottom: 1px solid lightblue;
+        margin-bottom: 20px;
+    }
+
+    .middle-icons .all-icons {
+        padding: 15px 0;
+    }
+
+    .middle-icons .all-icons a {
+        margin-right: 20px;
+    }
+
+    .bottom-imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .bottom-imgs img:first-child {
+        margin-bottom: 1em;
+    }
+
+    .lower-footer a img {
+        width: 50px;
+    }
+
+    .lower-footer ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px auto;
+    }
+
+    .lower-footer ul li a {
+        color: darkgrey;
+    }
+
+    .lower-footer form {
+        border: 1px solid white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .lower-footer form select {
+        background: none;
+        border: none;
+        color: gainsboro;
+    }
+
+    .lower-footer form select option {
+        color: black;
+    }
+
+    .lower-footer p {
+        margin-bottom: 1em;
+    }
+
+}
